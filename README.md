@@ -9,10 +9,14 @@ DKHandleScroll keeps track of the keyboard frame, and lets you manage your scrol
 
 
 // Add the following code in viewWillAppear
+
 -(void)viewWillAppear:(BOOL)animated
 {
+
     // Just Add instance of scrollView
+    
     [[DKHandleScroll sharedInstance] makeScrollable:_mainScroll];
+
 
     
 }
