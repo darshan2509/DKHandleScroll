@@ -3,7 +3,6 @@ DKHandleScroll keeps track of the keyboard frame, and lets you manage your scrol
 
 ![Screenshot](https://media.giphy.com/media/3oKIPvdxjIzyTwPQvC/giphy.gif)
 
-
 **Just add these files**
 
 1. DKHandleScroll.h
@@ -22,3 +21,7 @@ DKHandleScroll keeps track of the keyboard frame, and lets you manage your scrol
     [[DKHandleScroll sharedInstance] makeScrollable:_mainScroll];
 }
 ```
+
+**For Swift**
+1. Simply Drag and Drop SwiftScroll.swift file in your project
+2. Add ```` SwiftScroll.sharedInstance().makeScrollable() ````
